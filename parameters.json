@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "adminUserName": {
+        "value": "DemoUser"
+      },
+      "adminPassword": {
+        "value": "Azure@19811"
+      },
+      "dnsLabelPrefix": {
+        "value": "pip19211"
+      },
+      "rgName1": {
+        "value": "RG1"
+      },
+      "rgName2": {
+        "value": "RG2"
+      }
+    }
+  }
